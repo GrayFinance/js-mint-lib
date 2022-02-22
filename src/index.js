@@ -141,3 +141,5 @@ class Mintlib {
 		return await this.call("GET", "/wallet/" + wallet_id + "/payments?offset=" + offset, null, wallet_read_key)
 	}
 }
+
+module.exports = { Mintlib }
