@@ -6,17 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leffw/js-mint-lib.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leffw/js-mint-lib/issues"
-  },
-  "homepage": "https://github.com/leffw/js-mint-lib#readme",
   "dependencies": {
     "axios": "^0.26.0"
   }
