@@ -22,7 +22,6 @@ class Mintlib {
 		}
 
 		var request = axios.create({
-			withCredentials: true,
 			baseURL: this.api,
 			auth: {
 				username: username,
