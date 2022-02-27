@@ -79,9 +79,9 @@ class Mintlib {
 	}
 
 	auth_user = async (username, password) => {
-		auth_user = await this.call("POST", "/user/auth", { username: username, password: password })
-		this.token = auth_user.token
-		return auth_user
+		const auth = await this.call("POST", "/user/auth", { username: username, password: password })
+		this.token = auth.token
+		return auth
 	}
 
 	get_user = async () => {
